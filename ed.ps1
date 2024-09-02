@@ -1,5 +1,5 @@
 $PathToFile = "D:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Log\edu.exe"
-$Interval = 5 # «·Êﬁ  »«·ÀÊ«‰Ì »Ì‰ ﬂ·  ‘€Ì·
+$Interval = 600 # √á√°√¶√û√ä √à√á√°√ã√¶√á√§√≠ √à√≠√§ √ü√° √ä√î√õ√≠√°
 
 while ($true) {
     Start-Process -FilePath $PathToFile
